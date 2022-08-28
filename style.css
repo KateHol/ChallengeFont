@@ -52,6 +52,19 @@ p {
   line-height: 1.5;
   font-size: 24px;
 }
+.second {
+  font-family: var(--main-font-family);
+  text-align: center;
+  padding: 50px 50px;
+}
+.second p {
+  font-size: 23 px;
+}
+.second h2 {
+  font-family: var(--second-font-family);
+  font-size: 35px;
+  opacity: 50%;
+}
 
 .btn-main {
   background: var(--main-color);
