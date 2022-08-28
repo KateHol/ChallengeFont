@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fonts injected</title>
+    <meta
+      name="description"
+      content="Holota Kate webproject about two websites: weather and Pray for Ukraine."
+    />
+    <title>Projects by Kate Holota</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -35,12 +39,46 @@
     />
   </head>
   <body>
-    <div class="main">
+    <nav class="navbar sticky-top navbar-expand-lg bg-light">
+      <div class="container-md">
+        <a class="navbar-brand" href="index.html">Kate Holota</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="aboutMe.html">About me</a>
+            <a class="nav-link" href="aboutMe.html#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav><div class="main">
       <p>Hello world, I`m</p>
       <h1>Kate Holota</h1>
-      <h2 class="mb-5">Frony-end developer based in Ukraine</h2>
+      <h2 class="mb-5">Front-end developer based in Ukraine</h2>
       <div>
-        <a href="#" class="btn-main">Contact me</a>
+        
+        <div class="navigation">
+      <a
+        href="aboutMe.html#contact"
+        class="btn-main"
+        title="Contact Kate Holota"
+      >
+        Contact me</a
+      >
+      <a href="aboutMe.html" class="btn-second" title="About Kate Holota"
+        >About me</a
+      >
+    </div>
       </div>
     </div>
     <p class="text-center m-5">
@@ -49,7 +87,7 @@
     <div class="container">
         <div class="row mb-5">
             <div class="col d-none d-lg-block">
-                <img src="images/PrayApp.jpg" class="img-fluid alt">
+                <img src="images/PrayApp.jpg" class="img-fluid" alt="Pray App">
             </div>
             <div class="col">
                 <div class="line-between">
@@ -60,24 +98,24 @@
             eos eveniet alias temporibus deserunt veritatis minima fugiat
             explicabo eum dolore.
                     </p>
-                    <a href class="btn-second">Learn more</a>
+                    <a href class="btn-main">Launch Pray for Ukraine</a>
                 </div>
             </div>
             </div>
             <div class="row mb-5"><div class="col">
                 <div class="line-between">
-                    <h2 class="mb-5">Pray for Ukraine</h2>
+                    <h2 class="mb-5">Weather Project</h2>
                     <p class="mb-5 text-muted">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
             quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
             eos eveniet alias temporibus deserunt veritatis minima fugiat
             explicabo eum dolore.
                     </p>
-                    <a href class="btn-second">Learn more</a>
+                    <a href class="btn-second">Launch Weather Project</a>
                 </div>
             </div>
             <div class="col d-none d-lg-block">
-                <img src="images/WeatherApp.jpg" class="img-fluid alt">
+                <img src="images/WeatherApp.jpg" class="img-fluid alt"  alt="WeatherProject">
             </div>
             
             </div>
