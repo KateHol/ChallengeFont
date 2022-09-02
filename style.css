@@ -65,6 +65,23 @@ p {
   font-size: 35px;
   opacity: 50%;
 }
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--second-font-family);
+}
+
+.about-content {
+  margin: 30px;
+}
 
 .btn-main {
   background: var(--main-color);
