@@ -32,7 +32,15 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
-
+.navbar {
+  padding: 40px 0;
+}
+.nav-link {
+  padding: 0 25px !important;
+}
+.active {
+  color: var(--main-color) !important;
+}
 .main {
   background: var(--second-color);
   text-align: center;
@@ -105,6 +113,9 @@ p {
 
 .line-between {
   padding: 120px 60px;
+}
+.logo {
+  max-height: 40px;
 }
 .navigation {
   display: flex;
