@@ -179,7 +179,21 @@ p {
   color: white;
   box-sizing: border-box;
 }
+footer {
+  margin: 60 px 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+footer .email-link:hover {
+  color: var(--main-color);
+}
 
+footer .social-links {
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
