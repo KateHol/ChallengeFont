@@ -7,6 +7,7 @@
 
 body {
   font-family: var(--second-font-family);
+  overflow-x: hidden;
 }
 
 h1,
@@ -193,7 +194,7 @@ footer .contact-box {
 footer .email-link {
   text-decoration: none;
   color: black;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
 }
 footer .email-link:hover {
@@ -226,7 +227,12 @@ footer .social-links a:hover {
   .main {
     padding: 80px 20px;
   }
-
+  .btn-main {
+    font-size: 15px;
+  }
+  .btn-second {
+    font-size: 15px;
+  }
   .line-between {
     padding: 0;
     text-align: center;
@@ -234,10 +240,14 @@ footer .social-links a:hover {
   .about-section {
     text-align: center;
     padding: 0;
+    overflow-x: hidden;
   }
 
   .project-desciption {
     padding: 0;
     text-align: center;
+  }
+  footer .email-link {
+    font-size: 15px;
   }
 }
